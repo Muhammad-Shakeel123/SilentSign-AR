@@ -1,0 +1,530 @@
+{
+  "version": 2,
+  "skills": {
+    "build-image": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/build-image/SKILL.md",
+      "computedHash": "062af661648887906750e8f22903c6180ae962f9d4fae248450d4654f92fe2b7"
+    },
+    "build-mesh": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/build-mesh/SKILL.md",
+      "computedHash": "26c281529e76b691187bf35d9e32b6db7543d88c90ef1a649a4fb0fa2154f73e"
+    },
+    "build-music": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/build-music/SKILL.md",
+      "computedHash": "fe39856e8d60a8cf68d46b2fd57f03846a25108d3e84bc831321bd580a21fe07"
+    },
+    "build-sfx": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/build-sfx/SKILL.md",
+      "computedHash": "d488074b4953f8f9df10bebd7dc085e4046a758b4bb471688d91c8967756374e"
+    },
+    "camera-and-rendering": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/camera-and-rendering/SKILL.md",
+      "computedHash": "129e7cca6a7af551a4bca77b566b7fb5db230470d887d593312dc87b5527a100"
+    },
+    "editor-api": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/editor-api/SKILL.md",
+      "computedHash": "4d25b727053c0adf974072aa7ffc8bbb02ad6281c2adb4dd61199dfa21977ef5"
+    },
+    "ensure-package-installed": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/ensure-package-installed/SKILL.md",
+      "computedHash": "49430a08619d1fb4b69176b3ec2ddf7ff716c0800a24147706f2ab50633b851e"
+    },
+    "font-selector": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/font-selector/SKILL.md",
+      "computedHash": "e65d6c17562dc237c06de33b953e6cc32509c12c631942d0f9641ffa87cee89c"
+    },
+    "icon-selector": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/icon-selector/SKILL.md",
+      "computedHash": "c982c9c1dd32a85ee5672c69595037deca0649e4be3816eb5d43c122ac97d214"
+    },
+    "lens-api": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/lens-api/SKILL.md",
+      "computedHash": "1a6d5dce21877f5b164de06abc009d78969e73bd53b60a4091c84e81a3d5d968"
+    },
+    "lens-debug": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/lens-debug/SKILL.md",
+      "computedHash": "59b6767960a7d7e62d22bcda02c4a35f5b2466dd68e01c346ca9427b2f70bbcb"
+    },
+    "lens-evaluation": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/lens-evaluation/SKILL.md",
+      "computedHash": "a78014ca8e93096f1cc4edb3800840e4b5fde80cde383aaae6038ba189237aec"
+    },
+    "lens-js-debugger": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/lens-js-debugger/SKILL.md",
+      "computedHash": "2dbd8db22b0a45e879044cb5dcfeed71bb470a735b27ad3a7931714a508458c0"
+    },
+    "lens-log-analysis": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/lens-log-analysis/SKILL.md",
+      "computedHash": "0aeda1e578b9378cc3c3f0827cbda30874fb18a460c3b7e0545f33ccfbd643a8"
+    },
+    "lens-package-toolkit": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/lens-package-toolkit/SKILL.md",
+      "computedHash": "ece909cd9cdfc866a447977738c1320739d10e10f583badbb62e61abcf815235"
+    },
+    "lens-studio-field-notes": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/lens-studio-field-notes/SKILL.md",
+      "computedHash": "7b6e645603ac915cf5747da3cd37f48f27aa4b41e566c18b9fbd6064b59a3a7b"
+    },
+    "lens-studio-router": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/lens-studio-router/SKILL.md",
+      "computedHash": "2200fffb095ea5c058f09925f3fb92317508856d3345ce50a381c886b833f566"
+    },
+    "ls-studio-recover": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/ls-studio-recover/SKILL.md",
+      "computedHash": "3f58ad47936df4e43482f190b4798268c6d1f4688403c30d2b65f56935381190"
+    },
+    "materials": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/materials/SKILL.md",
+      "computedHash": "4978ecb9b0aa0091646c78304de443aa4b65a86f5e44c4a6034cae6f17b03ac5"
+    },
+    "mesh-builder-scripting": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/mesh-builder-scripting/SKILL.md",
+      "computedHash": "9671ba95d4e7ea68dd7fe9ee60cad8c0bcdc0b09ef25be9fd9c09b8e4979e4ac"
+    },
+    "perfetto-trace-analysis": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/perfetto-trace-analysis/SKILL.md",
+      "computedHash": "c77a2b160279cdbe689f54b0f81fa3204442b78d8a00f5c61a3ef9b5d47240c5"
+    },
+    "physics": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/physics/SKILL.md",
+      "computedHash": "ed9236ebf563db7886d1c03936496cd0848230ab1ac09e42eaa55095fb46df12"
+    },
+    "plan-lens": {
+      "source": "challengepost/learn-specs",
+      "commit": "5d8bc0800346d38e468c29b15afcb7ca92280005",
+      "sourceType": "github",
+      "skillPath": "skills/plan-lens/SKILL.md",
+      "computedHash": "757347a719a7bbe28def311d04b30ee307fc4ca79c7ccf20053079a599988bfe"
+    },
+    "preview-inspection": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/preview-inspection/SKILL.md",
+      "computedHash": "826cb9b0429217adecdf459c281468d36c4a33a3cc57b88f88366527151ffb3a"
+    },
+    "reset-preview-environment": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/reset-preview-environment/SKILL.md",
+      "computedHash": "2a0c51bcb604af640d291026edb84a40a662b238d97326c51e41c88ce93a079c"
+    },
+    "scene-construction": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/scene-construction/SKILL.md",
+      "computedHash": "ad89e1bb327f1fe17824dd0e7a14760f7e15a9ff6ad8f91ab7d3ed9336ce7786"
+    },
+    "shader-graph": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/shader-graph/SKILL.md",
+      "computedHash": "eff3ec9c15a2c35475df944ae2a51b8ceb25bb99741012bd60f386097910a37c"
+    },
+    "snapchat-bitmoji-avatar": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/snapchat-bitmoji-avatar/SKILL.md",
+      "computedHash": "036d13f06343153c70bec0621690bed39c737c1175dea9f630da7a863c0a74bb"
+    },
+    "snapchat-character-controller": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/snapchat-character-controller/SKILL.md",
+      "computedHash": "1ce878b1ad5f34d17373c0adebf29f34207361f28bebba794664b04a6192e8f2"
+    },
+    "snapchat-controllable-character": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/snapchat-controllable-character/SKILL.md",
+      "computedHash": "822a688dd0a425141945e77dc48cee75cdb42edc01b43bc086425dee1057702a"
+    },
+    "snapchat-follow-camera": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/snapchat-follow-camera/SKILL.md",
+      "computedHash": "109af614f4c252719c77fbaab554c5529bcb8354bebe19d2a2d76cb35c5be8d8"
+    },
+    "snapchat-games": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/snapchat-games/SKILL.md",
+      "computedHash": "c2abc92fa7bc6fb0042d540a0069d53f70e3fd2063fa81a3480489eccb173644"
+    },
+    "snapchat-project-init": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/snapchat-project-init/SKILL.md",
+      "computedHash": "6c285cecfb70d73f649a8dd75fb86995fb5359ae518e298f091c62c7bdfe29a8"
+    },
+    "snapchat-screen-input": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/snapchat-screen-input/SKILL.md",
+      "computedHash": "68427dac1534822ef3e0c453eb35fa5144fbbb8254d7c6429474f945a944e789"
+    },
+    "specs-27-migration": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-27-migration/SKILL.md",
+      "computedHash": "ed75b88b9abb10348af1e0fe60cbf6f3ac49992726b9d645e4991c0c3daad992"
+    },
+    "specs-ai-remote-service": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-ai-remote-service/SKILL.md",
+      "computedHash": "87fb0c0026633ae6cdcee4c70cd20fb92fdeda8bf50273b34e9c04e259003412"
+    },
+    "specs-asr": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-asr/SKILL.md",
+      "computedHash": "af880a2802880e95b8e07d7f0e6b88c628c37bd8d758797a43c26a9526c718d1"
+    },
+    "specs-audio": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-audio/SKILL.md",
+      "computedHash": "d1ab45f2c4b08b409fb1721ad26adf703c5f155d4adbfec0394015fb65375a62"
+    },
+    "specs-audit-build": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-audit-build/SKILL.md",
+      "computedHash": "b22ba1c1d18979921d4d933377f98d76ea3dcd36115d661711c77e17be0a0235"
+    },
+    "specs-author-scripts": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-author-scripts/SKILL.md",
+      "computedHash": "96a0b1e15850f657dd0b903d0f0cb709eef0fde0670fb5ed9b2d9845b1290dd2"
+    },
+    "specs-bootstrap-scene": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-bootstrap-scene/SKILL.md",
+      "computedHash": "24e86e2ed2c850aea49a675185f94299852f1578861d2052ce98cc8ba29fdb3d"
+    },
+    "specs-build-experience": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-build-experience/SKILL.md",
+      "computedHash": "5a2a2af928b0dd227d387f8ea497439ddd0cdcaa29c8f147d06dc27e4a6d59de"
+    },
+    "specs-build-ui": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-build-ui/SKILL.md",
+      "computedHash": "000d12101438b8d8cb23fa7fb64f9c47ed438e447534748cd9d9531db98abef6"
+    },
+    "specs-camera": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-camera/SKILL.md",
+      "computedHash": "8dec19067232cc504929cadb771785655531c25bd5ebf77cc29bc3bee63ff3fc"
+    },
+    "specs-capture-perf-trace": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-capture-perf-trace/SKILL.md",
+      "computedHash": "950211c3836c98bdd35a406f2fc79561fb2f67c4f6c58a2af5202c1f3358a3e3"
+    },
+    "specs-custom-locations": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-custom-locations/SKILL.md",
+      "computedHash": "13bfeb6ceb871ba83bcfd5f1d10f1ec16cfc1e4ebe4256d71fea23c7c2c83718"
+    },
+    "specs-debug": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-debug/SKILL.md",
+      "computedHash": "6fc00639b4fef488481208cd9eb0e07dbadf6c61928dfbc0eef345e9ee3ac385"
+    },
+    "specs-depth": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-depth/SKILL.md",
+      "computedHash": "ee7975f0132a331513440eff479c0b542d6887f9ac613e294a6cf69da65480ba"
+    },
+    "specs-interaction-recipes": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-interaction-recipes/SKILL.md",
+      "computedHash": "d8639e6ee4134bda556ef70fd0adfde0f87a673faeb6e196758b99f1c5a43b65"
+    },
+    "specs-internet": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-internet/SKILL.md",
+      "computedHash": "9581196a3680c44ef07271d64aaa76de91a20127bdcd80743ae98df3344785c0"
+    },
+    "specs-keyboard": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-keyboard/SKILL.md",
+      "computedHash": "ac502bf57499320c433c067c3fd894d9100d7f30c04fbf4042ac77e5be283ca8"
+    },
+    "specs-leaf-install-packages": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-leaf-install-packages/SKILL.md",
+      "computedHash": "af436718800d71a71bd2f05d091351740d16128cb8c6d06504c755d11b00989a"
+    },
+    "specs-leaf-run-in-preview": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-leaf-run-in-preview/SKILL.md",
+      "computedHash": "ecebb417370642627ae1c76315c76d0495fda5a1ffa69192d08283446709404b"
+    },
+    "specs-leaf-write-scenarios": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-leaf-write-scenarios/SKILL.md",
+      "computedHash": "e20679200d48e6b3ef9239aa0352c1c4e001a3e23398d963dcb24df6c9f15e71"
+    },
+    "specs-lens-perf-attribution": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-lens-perf-attribution/SKILL.md",
+      "computedHash": "0297634633790d8252dbdbd0db981e25a6eafb60a48edda7d8895aa2dbf554df"
+    },
+    "specs-lens-perf-optimize": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-lens-perf-optimize/SKILL.md",
+      "computedHash": "b2cd90c475a642b3a6979c6a5e8c1b817768aea6c0ce5a5df02aafa43eecd35c"
+    },
+    "specs-location": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-location/SKILL.md",
+      "computedHash": "376bf950f57e3a4d10951b9172e24ed536e2118fbbc02b7118ad4678d9bfa4ed"
+    },
+    "specs-ndk": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-ndk/SKILL.md",
+      "computedHash": "cdf5629d3bab91b0113b157b346cc70aa509cac8339073f3e4f17d0767347333"
+    },
+    "specs-optimize-lens-mesh": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-optimize-lens-mesh/SKILL.md",
+      "computedHash": "10b3832efb1b9df29ac0aa03bb8ad82647b243e14c020eebe7de9722bfcd2a9a"
+    },
+    "specs-package-renames": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-package-renames/SKILL.md",
+      "computedHash": "89fa2d3b2e92df9364952f0c2f35859456c3cd8b3bc10a912156cdc2781bc69a"
+    },
+    "specs-plan-experience": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-plan-experience/SKILL.md",
+      "computedHash": "02bf018281d43e330a0d726c2345e623c786e50ca3fbbc17c0e73c15fe845d66"
+    },
+    "specs-preview-interaction": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-preview-interaction/SKILL.md",
+      "computedHash": "2f5e1cdabb87f280fd27ee5a632624c6e4b60ad7f61978c1e940dae31736e26a"
+    },
+    "specs-project-init": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-project-init/SKILL.md",
+      "computedHash": "092e082d48fd08f921ca4767535ed2301cebcaf1694180a65f5ead2fb63dac8a"
+    },
+    "specs-prototype-builder": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-prototype-builder/SKILL.md",
+      "computedHash": "d9581b669bc28470ce4ceff6d22a11968d0ba4a496597e2939644cfee6d31b7c"
+    },
+    "specs-prototype-promote": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-prototype-promote/SKILL.md",
+      "computedHash": "32b203b1495026422f96cf18cdc3f9cdf22537e634b59c68396ec4e8af682ee6"
+    },
+    "specs-publish": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-publish/SKILL.md",
+      "computedHash": "eac214ee4359be890f4ae78c66c5449fe8a0907399fba03aa06aa0ce22753eb5"
+    },
+    "specs-snap-cloud": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-snap-cloud/SKILL.md",
+      "computedHash": "66c3bbe2aa0c32d87650cf2fcb9f971f52b48ee21605655b2f31cf8f62da8688"
+    },
+    "specs-spatial-anchors": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-spatial-anchors/SKILL.md",
+      "computedHash": "6d0cfaa75cb042b27f4346bf088e4b8e5bb7050c6d575ab47d0419184fc29b0e"
+    },
+    "specs-spatial-image": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-spatial-image/SKILL.md",
+      "computedHash": "f708e69d262f15abccfd44ebd4e8600715baf53035c60e6bc54e812a96bca013"
+    },
+    "specs-sync-kit": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-sync-kit/SKILL.md",
+      "computedHash": "d142be5a55cc6ed7c5156ceca0dc4a2c96675df41b2aa559fcc01246fcacc6b2"
+    },
+    "specs-websocket": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-websocket/SKILL.md",
+      "computedHash": "29ddeacbea02fe903ea1b0b721462aed77d9a70dedcac947ee1279e2b7c1ed89"
+    },
+    "specs-world-query": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/specs-world-query/SKILL.md",
+      "computedHash": "7251daa7a03b01285555939bd2f0114aecbcc51721daecafbebbf8bf644491ff"
+    },
+    "update-lens-packages": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/update-lens-packages/SKILL.md",
+      "computedHash": "3c15290e0fa3e13a5caae68f1594aefb646654437db073d46e84dd2f6c58f9c8"
+    },
+    "verify-preview": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/verify-preview/SKILL.md",
+      "computedHash": "619056fa5838539bb7a3550ea6dd8ec8cf9720680cd85e05f085ffacb688136b"
+    },
+    "vfx-graph": {
+      "source": "lens-studio-devs/ls-extensions",
+      "commit": "704a9a18def84e566cf7c2938c84e3c71f09ba21",
+      "sourceType": "github",
+      "skillPath": "plugins/ls-clad/skills/vfx-graph/SKILL.md",
+      "computedHash": "797fcac130c8270116a0cb6d264d73e4396d626b8d0591cde170ead46079de34"
+    }
+  }
+}

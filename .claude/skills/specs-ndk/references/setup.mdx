@@ -1,0 +1,70 @@
+---
+name: specs-ndk-setup
+description: Installs or updates SpecsNDK under Dev/SpecsNDK using the public SpecsNDK version manifest. No authentication required. macOS and Windows.
+---
+{/*
+Copyright 2026 Specs Inc.
+SPDX-License-Identifier: Apache-2.0
+*/}
+
+# SpecsNDK setup (macOS + Windows)
+
+The latest SpecsNDK release is described by a public version manifest
+(`https://raw.githubusercontent.com/specs-devs/ndk/refs/heads/main/specsndk-latest.json`). The
+manifest only lists the release; the SDK archives themselves are hosted on a separate CMS at the
+per-platform URLs it names. Both download without authentication. All checking, downloading, size verification, extraction,
+version verification, and macOS quarantine clearing are done by this skill's
+**`tools/specsndk.py`** (Python 3 stdlib). Its input and output contracts are owned by
+**`tools/specsndk.schema.json`**. Do not fetch the manifest or archive with `curl`, a
+browser, or ad-hoc scripts.
+
+Resolve the absolute path to `tools/specsndk.py` from the specs-ndk skill directory. Use `python3`
+on macOS and `python` on Windows. The SDK root defaults to `~/Dev/SpecsNDK` (`$HOME\Dev\SpecsNDK`);
+`SPECSNDK_ROOT` or `--root` overrides it.
+
+## 1. Check
+
+```bash
+python3 /abs/path/to/specsndk.py check
+```
+
+Prints one JSON object. Act on `status`:
+
+| `status` | Action |
+|----------|--------|
+| `missing` | Install (step 2) without asking. |
+| `outdated` or `unversioned` | Ask the user whether to update from `installedVersion` to `latestVersion` (mention `downloadBytes` and `releaseDate`). On yes → step 2. On no → continue with the installed SDK and do not ask again this session. |
+| `current` or `newer` | Continue; no action. |
+| `unknown` | Manifest unreachable but an SDK is installed: continue with it and mention `manifestError` once. |
+
+`ok: false` means the SDK is missing and the manifest is unreachable. Show `error` and stop.
+
+If `cmake.found` is `false`, stop before building and install CMake: `brew install cmake` (macOS) or
+`winget install --id Kitware.CMake -e` (Windows). Then re-run `check`.
+
+## 2. Install or update
+
+```bash
+python3 /abs/path/to/specsndk.py install
+```
+
+The tool stages the release next to the SDK root and only swaps it in once size and version both
+verify. On any failure the existing SDK is left untouched. On update, the previous SDK is renamed
+to `backupPath` (`~/Dev/SpecsNDK.backup-<previous version>`). After a successful update, tell the user
+the backup path and that they can delete it once their modules build. Pass `--no-backup` only if the
+user asks for the old SDK to be removed.
+
+On `ok: false`, show `error`. If the shell was blocked by the sandbox or a permission prompt was
+denied, do not claim setup succeeded. Give the user the same command to run in their terminal.
+
+Only on Windows, if Windows marks the extracted files as blocked downloads, run:
+
+```powershell
+Get-ChildItem "$HOME\Dev\SpecsNDK" -Recurse -File | Unblock-File
+```
+
+## Response format
+
+- `check` status, with installed and latest versions.
+- Whether an install or update ran and its result (`installedVersion`, `previousVersion`, `backupPath`), or that the user declined the update.
+- Any CMake stop, or a fallback where the user ran the command themselves.
